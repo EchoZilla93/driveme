@@ -1,12 +1,5 @@
-import { Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import SignInPage from "@/app/components/pages/SIgnIn";
 
-const SignIn = () => {
-  return (
-    <SafeAreaView>
-      <Text>SignIn page</Text>
-    </SafeAreaView>
-  );
-};
+const SignIn = () => <SignInPage />;
 
 export default SignIn;
