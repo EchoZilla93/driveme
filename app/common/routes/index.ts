@@ -5,5 +5,5 @@ export enum AUTH_ROUTES {
 }
 
 export enum ROOT_ROUTES {
-  HOME = '/(root)/(tabs)/home'
+  HOME = "/(root)/(tabs)/home",
 }
